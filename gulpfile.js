@@ -1,5 +1,6 @@
 var elixir = require('laravel-elixir');
 require('laravel-elixir-imagemin');
+require('laravel-elixir-vueify');
 
 elixir.config.sourcemaps = false;
 elixir.config.js.folder = '';

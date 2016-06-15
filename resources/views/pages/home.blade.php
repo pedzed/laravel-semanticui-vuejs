@@ -54,5 +54,9 @@
             <div class="grey column">Grey</div>
             <div class="black column">Black</div>
         </div>
+        
+        <div class="ui piled segment">
+            <vue-test></vue-test>
+        </div>
     </div>
 @stop

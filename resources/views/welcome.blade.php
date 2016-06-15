@@ -34,6 +34,10 @@
                 font-size: 96px;
             }
         </style>
+        
+        <!--[if lt IE 9]>
+            <script src="{{ asset('/vendor/bower/html5shiv/dist/html5shiv.min.js') }}"></script>
+        <![endif]-->
     </head>
     <body>
         <div class="container">

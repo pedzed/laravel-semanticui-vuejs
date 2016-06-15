@@ -2,6 +2,7 @@
   "name": "untitled",
   "private": true,
   "dependencies": {
+    "html5shiv": "^3.7.3"
   },
   "ignore": [
     "**/.*",

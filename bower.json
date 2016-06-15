@@ -1,0 +1,13 @@
+{
+  "name": "untitled",
+  "private": true,
+  "dependencies": {
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_comsponents",
+    "test",
+    "tests"
+  ]
+}

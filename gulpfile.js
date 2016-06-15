@@ -1,7 +1,12 @@
 var elixir = require('laravel-elixir');
 require('laravel-elixir-imagemin');
 
+elixir.config.sourcemaps = false;
+elixir.config.js.folder = '';
+elixir.config.css.less.folder = '';
+
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.browserify('js/main.js', 'public/js/main.js');
+    mix.less('less/main.less', 'public/css/main.css');
     mix.imagemin();
 });

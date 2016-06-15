@@ -7,5 +7,7 @@ Includes:
 - Semantic UI 2.1
     - LESS support
 - VueJS
+- Imagemin
+- HTML5Shiv
 - Bower
 - Gulp

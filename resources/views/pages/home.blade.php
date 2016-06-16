@@ -4,11 +4,11 @@
 
 @section('content')
     <div class="ui container">
-        <p>
+        <p class="margin-bottom-level-4">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsam, repellendus magnam atque, nisi fuga. Quod maxime, voluptas fuga, reprehenderit officiis obcaecati repellat vero eius totam illo quae atque debitis!
         </p>
         
-        <div class="ui grid">
+        <div class="ui grid margin-bottom-level-3">
             <div class="four wide column">
                 <img src="{{ asset('images/wireframe/image.png') }}"
                      class="ui wireframe image"
@@ -39,7 +39,7 @@
             </div>
         </div>
         
-        <div class="ui stackable doubling five column padded grid">
+        <div class="ui stackable doubling five column padded grid margin-bottom-level-3">
             <div class="red column">Red</div>
             <div class="orange column">Orange</div>
             <div class="yellow column">Yellow</div>
@@ -55,7 +55,7 @@
             <div class="black column">Black</div>
         </div>
         
-        <div class="ui piled segment">
+        <div class="ui piled segment margin-bottom-level-5">
             <vue-test></vue-test>
         </div>
     </div>

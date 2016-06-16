@@ -20,7 +20,7 @@
     </head>
     <body>
         <header>
-            <div class="ui container">
+            <div class="ui container padding-top-bottom-level-3">
                 <h1>{{ config('app.name') }}</h1>
                 <div class="ui divider"></div>
             </div>

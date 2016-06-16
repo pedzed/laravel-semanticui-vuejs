@@ -12,7 +12,7 @@ This is a fresh Laravel installation with Semantic UI as CSS framework and Vue.
 - Gulp
 - And more...
 
-![Preview](https://i.imgur.com/95eAD9Q.png)
+![Preview](https://i.imgur.com/6EG9IcY.png)
 
 ### Pre-requisites
 - PHP >= 5.5.9

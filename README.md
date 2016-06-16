@@ -1,11 +1,10 @@
-# Laravel, Semantic UI and VueJS
+# Laravel, Semantic UI and Vue
 
 This is a fresh Laravel installation with Semantic UI as CSS framework and Vue.
 
 ### Includes
 - Laravel 5.2
 - Semantic UI 2.1
-    - LESS support
 - Vue
 - Imagemin
 - HTML5Shiv
@@ -48,7 +47,6 @@ addgroup www-data
 ```
 
 ### License
-
 The MIT License (MIT)
 
 Copyright (c) 2016 pedzed

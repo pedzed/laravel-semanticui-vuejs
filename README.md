@@ -37,13 +37,25 @@ This is a fresh Laravel installation with Semantic UI as CSS framework and Vue.
 On Linux, you have to grant permissions to certain directories.
 
 #### Debian-based Operating Systems
-```
+```bash
 # Change ownership of current folder and everything inside it to www-data
 chown -R www-data:www-data .
+```
 
-# Add the current user to www-data group
+If you have problems saving your files, then follow these instructions:
+```bash
+# Check if the current user is added to the www-data group
+id | grep www-data
+
+# If not, add the current user to www-data group
 sudo usermod -aG www-data $USER
-addgroup www-data
+su - $USER
+
+# Check if the current user is added to the www-data group
+id | grep www-data
+
+# If not, reboot the system
+# sudo reboot
 ```
 
 ### License

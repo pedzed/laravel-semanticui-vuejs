@@ -25,15 +25,19 @@
             
             <div class="three wide column">
                 <img src="{{ asset('images/wireframe/media-paragraph.png') }}"
-                     class="ui wireframe image"
+                     class="ui wireframe image margin-bottom-level-2"
                      alt="wireframe image"
                 />
                 <img src="{{ asset('images/wireframe/media-paragraph.png') }}"
-                     class="ui wireframe image"
+                     class="ui wireframe image margin-bottom-level-2"
                      alt="wireframe image"
                 />
                 <img src="{{ asset('images/wireframe/media-paragraph.png') }}"
-                     class="ui wireframe image"
+                     class="ui wireframe image margin-bottom-level-2"
+                     alt="wireframe image"
+                />
+                <img src="{{ asset('images/wireframe/media-paragraph.png') }}"
+                     class="ui wireframe image margin-bottom-level-2"
                      alt="wireframe image"
                 />
             </div>
